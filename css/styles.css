@@ -1,0 +1,59 @@
+:root {
+    --color-main-text: #212121;
+    --color-secondary-text: #757575;
+    --color-hover: #2196F3;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+li {
+    list-style-type: none;
+}
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: var(--color-main-text);
+}
+
+.logo span {
+    color: var(--color-hover);
+}
+
+.navigation {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--color-main-text);
+}
+
+.contact {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--color-secondary-text);
+}
+
