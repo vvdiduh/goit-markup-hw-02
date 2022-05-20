@@ -6,21 +6,24 @@
 
 body {
     font-family: 'Roboto';
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    font-weight: 400;
     letter-spacing: 0.03em;
 }
 
 li {
     list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+}
 .logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-decoration: none;
 
     color: var(--color-main-text);
@@ -30,30 +33,132 @@ li {
     color: var(--color-hover);
 }
 
+
 .navigation {
-    font-family: Roboto;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
 .navigation a {
-    text-decoration: none;
     color: var(--color-main-text);
 }
 
+.navigation a:hover {
+    color: var(--color-hover);
+}
+
 .contact {
-    font-family: Roboto;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
 }
 
 .contact a {
-    text-decoration: none;
     color: var(--color-secondary-text);
 }
 
+.contact a:hover {
+    color: var(--color-hover);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    cursor: pointer;
+
+    background-color: var(--color-hover);
+}
+
+.peculiarities h3 {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--color-main-text);
+}
+
+.peculiarities p {
+    color: var(--color-secondary-text);
+}
+
+.about h2,
+.team h2 {  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--color-main-text);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--color-main-text);
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--color-secondary-text);
+}
+
+.adress {
+    font-style: normal;
+    line-height: 1.71;
+    color: #000000;
+}
+
+.adress-contact {
+    line-height: 1.71;   
+    color: var(--color-secondary-text)
+}
+
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-main-text);
+    cursor: pointer;
+
+    background-color: #F5F4FA;
+}
+
+.filter:hover {
+    color: #FFFFFF;
+    background-color: var(--color-hover);
+}
+
+.examples-works h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-main-text);
+}
+
+.examples-works p{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary-text);
+}
