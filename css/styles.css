@@ -48,6 +48,10 @@ a {
     color: var(--color-hover);
 }
 
+.current a{
+    color: var(--color-hover);
+}
+
 .contact {
     font-weight: 500;
     line-height: 1.14;
