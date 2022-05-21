@@ -2,14 +2,18 @@
     --color-main-text: #212121;
     --color-secondary-text: #757575;
     --color-hover: #2196F3;
+    --background-main: #FFFFFF;
+    --background-footer: #2F303A;
+    --backgraund-team: #F5F4FA;
 }
 
 body {
-    font-family: 'Roboto';
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: var(--color-secondary-text);
+    background-color: var(--background-main);
 }
 
 li {
@@ -18,9 +22,10 @@ li {
 
 a {
     text-decoration: none;
+    font-style: normal;
 }
 .logo {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -68,7 +73,7 @@ a {
 }
 
 .banner {
-    background-color: #2F303A;
+    background-color: var(--background-footer);
 }
 
 h1 {
@@ -78,7 +83,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--background-main);
 }
 
 .hero-button {
@@ -87,7 +92,7 @@ h1 {
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #ffffff;
+    color: var(--background-main);
     cursor: pointer;
 
     background-color: var(--color-hover);
@@ -95,6 +100,7 @@ h1 {
 
 .peculiarities h3 {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--color-main-text);
@@ -105,11 +111,11 @@ h1 {
 }
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--backgraund-team);
 }
 
 .team > ul > li {
-    background-color: #FFFFFF;
+    background-color: var(--background-main);
 }
 
 .about h2,
@@ -137,11 +143,11 @@ h1 {
 }
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--background-footer);
 }
 
 .logo-footer {
-    font-family:Raleway;
+    font-family: 'Raleway' sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -150,13 +156,13 @@ footer {
 }
 
 .logo-footer span {
-    color: #FFFFFF;
+    color: var(--background-main);
 }
 
 .adress {
     font-style: normal;
     line-height: 1.71;
-    color: #FFFFFF;
+    color: var(--background-main);
 }
 
 .adress-contact {
@@ -176,10 +182,12 @@ footer {
     background-color: #F5F4FA;
 }
 
-.filter:hover {
-    color: #FFFFFF;
+.filter:hover,
+.filter:focus {
+    color: var(--background-main);
     background-color: var(--color-hover);
 }
+
 
 .examples-works h2 {
     font-weight: 700;
@@ -193,5 +201,4 @@ footer {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--color-secondary-text);
 }
