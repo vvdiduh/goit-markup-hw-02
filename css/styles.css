@@ -195,10 +195,12 @@ footer {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--color-main-text);
+    
 }
 
 .examples-works p {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    color: var(--color-secondary-text);
 }
